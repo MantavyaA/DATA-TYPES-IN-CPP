@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 18;
+    char Division = 'A';
+    bool isadult = true;
+
+    cout << "Age: " << age << endl;
+    cout << "Division: " << Division << endl;
+    cout << "Adult: " << isadult << endl;
+
+    return 0;
+}
