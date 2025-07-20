@@ -1,0 +1,37 @@
+#NAME : MANTAVYA ANAND
+#PRN : 24070123059
+#CLASS AND BATCH : EnTC - A3
+
+
+
+#include <iostream>
+using namespace std;
+int main() {
+   
+    int a;
+    cout<<"Enter any integer: ";
+    cin>>a;
+    cout<<"Integer = "<<a<<" and size is "<<sizeof(a)<<" bytes"<<endl;
+   
+    float b;
+    cout<<"Enter any float value: ";
+    cin>>b;
+    cout<<"float = "<<b<<" and size is "<<sizeof(b)<<" bytes"<<endl;
+   
+    short c;
+    cout<<"Enter any short value: ";
+    cin>>c;
+    cout<<"short = "<<c<<" and size is "<<sizeof(c)<<" bytes"<<endl;
+   
+    double d;
+    cout<<"Enter any double value: ";
+    cin>>d;
+    cout<<"double = "<<d<<" and size is "<<sizeof(d)<<" bytes"<<endl;
+   
+    long double e;
+    cout<<"Enter any long double value: ";
+    cin>>e;
+    cout<<"Long Double = "<<e<<" and size is "<<sizeof(e)<<" bytes"<<endl;
+
+    return 0;
+}
