@@ -12,3 +12,9 @@ int main() {
 
     return 0;
 }
+
+
+//OUTPUT :
+Age: 18
+Division: A
+Adult: 1
